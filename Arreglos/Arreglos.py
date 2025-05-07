@@ -72,6 +72,7 @@ dic={"nombre":"Ana","edad":25}
 dic2=dict(nombre="Luis", edad=30)
 dic3=dict([('nombre', 'Carlos'),('edad',28)]) #Si hay dos arreglos, se pude usar **zip** y crear el diccionario.
 cuadrados={x: x**2 for x in range(5)} #{0:0, 1:1, 2:4, 3:9, 4:16}
+dic4= dict.fromkeys(lista) #Un segundo parámetro define el valor de cada llave. Por defecto es None
 
 ##Acceder, modificar, agregar
 print(dic['nombre']) #Acceder
