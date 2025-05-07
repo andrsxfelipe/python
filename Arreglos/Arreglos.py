@@ -57,3 +57,35 @@ suma=reduce(lambda x,y:x+y, numeros,10) #EL ultimo parametro es para que el acum
 ##Crear
 tupla=(1,2,3)
 tupla2=tuple([4,5,6])
+
+##Algunas funciones
+len(tupla) #Longitud
+tupla.count(2) #Cuenta cuántas veces aparece el parámetro
+tupla.index(3) #Retorna la primera posición del parámetro
+
+##Desempaquetado
+a, b, c = tupla #El valor de a es 1, el valor de b es 2 y el de c es 3
+
+#Diccionarios
+##Creacion
+dic={"nombre":"Ana","edad":25}
+dic2=dict(nombre="Luis", edad=30)
+dic3=dict([('nombre', 'Carlos'),('edad',28)]) #Si hay dos arreglos, se pude usar **zip** y crear el diccionario.
+cuadrados={x: x**2 for x in range(5)} #{0:0, 1:1, 2:4, 3:9, 4:16}
+
+##Acceder, modificar, agregar
+print(dic['nombre']) #Acceder
+dic['edad']=30 #Modificar
+dic['profesion']="Ingeniera" #AGregar
+
+##Eliminar
+del dic["edad"] #Elimina la clave edad y su valor
+dic.pop('nombre') #Devuelve el valor tambien
+dic.clear() #Vacía
+
+##Métodos útiles
+dic.keys() #Arreglo de las llaves
+dic.values() #Valores
+dic.items() #Devuelve pares (clave, valor)
+dic.get('profesion','Ingeniero') #Evita errores por si no existe la clave
+dic.dic(dic2) #Actualiza con nuevos datos
