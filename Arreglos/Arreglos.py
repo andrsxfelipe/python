@@ -3,6 +3,7 @@
 ##Creación y conversión
 lista=[]
 list(iterable) #Cadena o tupla
+resultado = [x * 2 for x in lista if x % 2 == 0] #Compresión de listas
 
 ##Agregar
 lista.append(elem=1) #Agrega al final 1
