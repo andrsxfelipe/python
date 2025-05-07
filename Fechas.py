@@ -31,10 +31,10 @@ fecha_str = "07/05/2025"
 fecha_obj = datetime.strptime(fecha_str, "%d/%m/%Y") # 2025-05-07 00:00:00
 
 #5. Operaciones con fechas
-##Suma
+##Suma o resta de días
 mañana = hoy + timedelta(days=1)
 ayer = hoy - timedelta(days=1)
-##Resta
+##Diferencia de dias
 inicio = date(2025, 5, 1)
 fin = date(2025, 5, 7)
 diferencia = fin - inicio
