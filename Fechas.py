@@ -24,7 +24,8 @@ print(ahora.strftime("%A, %d %B %Y"))    # 'Wednesday, 07 May 2025'
 | `%A`   | Día de la semana | Wednesday |
 | `%H`   | Hora (00-23)     | 15        |
 | `%M`   | Minuto (00-59)   | 32        |
-| `%S`   | Segundo (00-59)  | 11        |"""
+| `%S`   | Segundo (00-59)  | 11        |
+"""
 
 #4. Convertir string a fecha
 fecha_str = "07/05/2025"
