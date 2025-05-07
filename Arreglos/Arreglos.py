@@ -88,5 +88,5 @@ dic.keys() #Arreglo de las llaves
 dic.values() #Valores
 dic.items() #Devuelve pares (clave, valor)
 dic.get('profesion','Ingeniero') #Evita errores por si no existe la clave
-dic.dic(dic2) #Actualiza con nuevos datos
+dic.update(dic2) #Actualiza con nuevos datos
 dict.fromkeys(claves,0) #La variable claves es una lista o tupla y crea un diccionario con todos sus valores 0
