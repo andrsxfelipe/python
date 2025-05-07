@@ -1,0 +1,40 @@
+🔷 1. Épica (Epic)
+✅ Definición:
+Una épica es una gran unidad de trabajo que representa una funcionalidad o requerimiento amplio y de alto nivel. Es demasiado grande para completarse en un solo sprint, por lo que debe descomponerse en features o historias de usuario más pequeñas.
+📌 Características:
+    - Representa objetivos estratégicos.
+    - Puede tardar semanas o meses en completarse.
+    - Está alineada con los objetivos del negocio.
+🧠 Ejemplo:
+Épica: “Permitir a los usuarios gestionar sus suscripciones mensuales desde la app móvil.”
+
+🔷 2. Feature (Característica)
+✅ Definición:
+Una feature es una funcionalidad específica dentro de una épica. Aún puede ser grande, pero más manejable. Generalmente, se puede completar en uno o varios sprints.
+📌 Características:
+    Funcionalidad más concreta que una épica.
+    Aún puede dividirse en varias historias de usuario.
+    Tiene valor para el usuario final.
+🧠 Ejemplo (derivado de la épica anterior):
+Feature: “Agregar opción para cambiar el método de pago en la app.”
+
+🔷 3. Historia de Usuario (User Story)
+✅ Definición:
+Una historia de usuario describe una necesidad específica desde el punto de vista del usuario. Está diseñada para ser implementada en un solo sprint y debe ser pequeña, clara y con valor entregable.
+📌 Formato común:
+    “Como [tipo de usuario], quiero [una funcionalidad] para [un beneficio o razón].”
+📌 Características:
+    Centrada en el usuario.
+    Entregable en pocos días.
+    Base para pruebas de aceptación.
+🧠 Ejemplo (derivado de la feature anterior):
+Historia de Usuario:
+    “Como usuario registrado, quiero agregar una nueva tarjeta de crédito como método de pago, para asegurarme de que mis suscripciones no se interrumpan.”
+
+🛠 Otro Ejemplo Integrado
+Épica: Mejorar la seguridad de las cuentas de usuario.
+    Feature 1: Implementar autenticación multifactor (MFA).
+        Historia 1: Como usuario, quiero ingresar mi contraseña y luego un código enviado por SMS.
+        Historia 2: Como usuario, quiero configurar MFA desde el perfil.
+    Feature 2: Agregar alertas por actividad sospechosa.
+        Historia 1: Como usuario, quiero recibir un correo si inicio sesión desde un nuevo dispositivo.
