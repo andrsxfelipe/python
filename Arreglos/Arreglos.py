@@ -24,7 +24,7 @@ lista.count(elem=1) #Cuántas veces aparece
 lista.sort() #Ordena de menor a mayor
 lista.sort(reverse=True) #Ordena de mayor a menor
 lista.reverse() #invierte el orden actual
-sorted(lista) #Devuelve una nueva lista ordenada sin modificar la orginal
+sorted(lista) #Devuelve una nueva lista ordenada sin modificar la orginal sorted(iterable, key=None, reverse=False)
 
 ##Otra
 len(lista) #Cantidad de elementos
@@ -37,8 +37,10 @@ zip(lista,l2) #Ejemplo nombres=[Ana, Felip] edades=[20,23] despues del zip: [(An
 ##Función últil con listas: map()
 ###Es usada cuando quieres aplicar una misma función a todos los elementos de una lista o iterable *sin escribir un bucle*
 map(funcion=int, iterable=lista) #Convierte todos los elementos en enteros
-###Fucionada con lambda
+[int(x) for x in lista]
+###Fusionada con lambda
 list(map(lambda x: x**2, lista)) #Eleva todos los valores al cuadrado
+
 
 ##Funcion filter()
 ###Filtrar elementos de un iterable que cumplan una condicion, retorna True o False para cada elemento, devuelve un iterador, usualmenter list() para devolverla
