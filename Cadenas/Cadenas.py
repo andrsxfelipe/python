@@ -3,7 +3,7 @@ cadena="Murcielago"
 lista=["1","2","3"]
 len(cadena) #Longitud de la cadena
 cadena.isalpha() #True o false, solo letras
-cadena.isdigit() #Solo digitos
+cadena.isdigit() #Solo digitos. False: '1.5', '-1', '+123' 
 cadena.isalnum() #Letras y/o numeros
 cadena.isspace() #Solo espacios en blanco
 cadena.islower() #Minusculas
