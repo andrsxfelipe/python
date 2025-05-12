@@ -61,4 +61,110 @@ sudo apt-get install python3-tk
 python3 nombre_del_script.py
 
 ¿Quieres que el README incluya también cómo clonar el repositorio o ejecutar otras dependencias?
+Gestor de Biblioteca
+
+Esta es una aplicación de escritorio creada con Python y Tkinter que permite gestionar una pequeña biblioteca. Puedes:
+
+- Añadir libros con sus respectivos datos.
+- Buscar libros por título o autor.
+- Modificar la cantidad o el precio de un libro.
+- Eliminar libros del registro.
+- Generar un reporte de los libros más antiguos y más recientes por género.
+- Visualizar el inventario actualizado en una interfaz amigable.
+
+## Requisitos
+
+- Python 3.x
+- Tkinter (incluido por defecto en la mayoría de instalaciones de Python)
+
+### Instalación de dependencias (Linux)
+
+Si al ejecutar el script aparece el error:
+
+ModuleNotFoundError: No module named 'tkinter'
+
+arduino
+Copiar
+Editar
+
+Puedes instalar Tkinter en sistemas Debian/Ubuntu con:
+
+```bash
+sudo apt-get install python3-tk
+Ejecución
+Clona o descarga este repositorio.
+
+Navega al directorio donde se encuentra el archivo .py.
+
+Ejecuta el programa con:
+
+bash
+Copiar
+Editar
+python3 PruebaDesempenoMod1.py
+Se abrirá una ventana gráfica donde podrás gestionar los libros de la biblioteca.
+
+Estructura de la interfaz
+Campos de entrada para: título, autor, género, año, cantidad y precio.
+
+Botones para cada operación (añadir, buscar, actualizar, eliminar, reporte).
+
+Área de texto para mostrar el inventario y resultados de búsqueda o reporte.
+
+Notas
+Los datos se almacenan en memoria (no se guarda en archivo).
+
+Gestor de Biblioteca
+
+Esta es una aplicación de escritorio creada con Python y Tkinter que permite gestionar una pequeña biblioteca. Puedes:
+
+- Añadir libros con sus respectivos datos.
+- Buscar libros por título o autor.
+- Modificar la cantidad o el precio de un libro.
+- Eliminar libros del registro.
+- Generar un reporte de los libros más antiguos y más recientes por género.
+- Visualizar el inventario actualizado en una interfaz amigable.
+
+## Requisitos
+
+- Python 3.x
+- Tkinter (incluido por defecto en la mayoría de instalaciones de Python)
+
+### Instalación de dependencias (Linux)
+
+Si al ejecutar el script aparece el error:
+
+ModuleNotFoundError: No module named 'tkinter'
+
+arduino
+Copiar
+Editar
+
+Puedes instalar Tkinter en sistemas Debian/Ubuntu con:
+
+```bash
+sudo apt-get install python3-tk
+Ejecución
+Clona o descarga este repositorio.
+
+Navega al directorio donde se encuentra el archivo .py.
+
+Ejecuta el programa con:
+
+bash
+Copiar
+Editar
+python3 PruebaDesempenoMod1.py
+Se abrirá una ventana gráfica donde podrás gestionar los libros de la biblioteca.
+
+Estructura de la interfaz
+Campos de entrada para: título, autor, género, año, cantidad y precio.
+
+Botones para cada operación (añadir, buscar, actualizar, eliminar, reporte).
+
+Área de texto para mostrar el inventario y resultados de búsqueda o reporte.
+
+Notas
+Los datos se almacenan en memoria (no se guarda en archivo).
+
 
