@@ -41,3 +41,24 @@ Puedes verificar si está disponible ejecutando esto en una terminal:
 bash
 Copiar código
 python -m tkinter
+
+---
+## Requisitos
+
+Este proyecto requiere Python 3 y el módulo `tkinter` para interfaces gráficas.
+
+### Instalación en Linux (Debian/Ubuntu)
+
+Si al ejecutar el programa ves un error como:
+
+--
+
+Puedes instalar `tkinter` con el siguiente comando:
+
+```bash
+sudo apt-get install python3-tk
+--
+python3 nombre_del_script.py
+
+¿Quieres que el README incluya también cómo clonar el repositorio o ejecutar otras dependencias?
+
