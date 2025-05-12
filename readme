@@ -24,3 +24,20 @@ error: externally-managed-environment
 
 note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
 hint: See PEP 668 for the detailed specification.
+_________________
+Si estás en Linux (como parece por la ruta del archivo):
+Debes instalar el paquete que contiene tkinter. En Debian, Ubuntu o derivados, puedes usar este comando:
+
+bash
+Copiar código
+sudo apt-get install python3-tk
+Luego intenta ejecutar de nuevo tu script.
+
+Si estás en Windows:
+tkinter viene incluido con las versiones estándar de Python. Asegúrate de que estás usando una instalación oficial de Python (de python.org) y que no se haya dañado.
+
+Puedes verificar si está disponible ejecutando esto en una terminal:
+
+bash
+Copiar código
+python -m tkinter
