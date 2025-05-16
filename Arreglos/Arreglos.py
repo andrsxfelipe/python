@@ -22,8 +22,9 @@ lista.index(elem=1) #Devuelve la posición del primer elem
 lista.count(elem=1) #Cuántas veces aparece
 
 ##Orden y reversa
-lista.sort() #Ordena de menor a mayor
+lista.sort() #Ordena de menor a mayor, toma los atributos key=(aqui va una funcion) que toma solo un argumento y devuelve un valor que se usará para order, reverse=True ordena al revés.
 lista.sort(reverse=True) #Ordena de mayor a menor
+lista.sorted() #A diferencia de sort, esta retorna una nueva lista, la anterior la modifica. Toman los mismo parámetros.
 lista.reverse() #invierte el orden actual
 sorted(lista) #Devuelve una nueva lista ordenada sin modificar la orginal sorted(iterable, key=None, reverse=False)
 
